@@ -13,18 +13,17 @@ img{
 h1{
     font-family: Oldenburg;
     font-size: 3em;
+    text-align: center;
+}
+
+h3{
+    font-family: Oldenburg;
+    text-align: center;
 }
 #title{
     font-size: 1em;
 }
 
-
-
-/* h1{
-   // text-align: center;
-}
-pour grand écrans
-*/
 #center{
    text-align:  center; 
 }
@@ -40,10 +39,11 @@ pour grand écrans
     text-decoration: none;
     color:white;
 }
-.lefestival{
-    font-size: 2em;
-    text-align: center;
+#liens:active{
+    text-decoration: underline;
+    color:red;
 }
+
 .grey{
     font-size: .8em;
     color:grey;
@@ -90,6 +90,9 @@ pour grand écrans
     padding: 20px;
     margin: 20px;
     box-shadow: 1px 1px grey;
+}
+#festival{
+    padding-top: 100px;
 }
 
   /*---------------------------------------media-queries -------------------------------------------------*/
